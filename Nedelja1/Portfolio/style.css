@@ -1,0 +1,79 @@
+* {box-sizing: border-box;}
+
+html, body {
+    margin: 0;
+    padding: 0; 
+}
+
+.glava {
+    background-image: url(slike/pozadina.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.sadrzaj h1 {
+    font-size: 25px;
+}   
+
+section {
+    background-image: url(slike/pozadina.jpg);
+    background-size: cover;
+}
+
+section h2 {
+    padding:0;
+    margin:0;
+    text-align: center; 
+}
+
+hr {
+    background-color: grey;
+    padding: 0;
+    margin: 0;
+}
+
+.naslov {
+    text-align: center;
+    font-size: 30px;
+}
+
+.opis {
+    text-align: center;
+}
+
+.sadrzaj img {
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+table {    
+    height: 80%;
+    margin-left: 280px; 
+    margin-right: 120px; 
+}
+
+table img {
+    max-width: 100%;    
+    margin:50px;
+}
+
+h3 {
+    margin-left: 55px;
+}
+
+footer{ 
+    background-image: url(slike/pozadina.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.zadnja-linija {
+    background-color: grey;
+    padding: 0;
+    margin: 0; 
+}
