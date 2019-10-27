@@ -1,0 +1,34 @@
+.naziv{
+    text-align: center;
+}
+.navigacija { text-align: center; font-size: 2em; 
+}
+.Anaa {
+    background-image: url(Slike/pivo.jpg);
+}
+.navigacija li {
+    display: inline;
+}
+.navigacija a {
+     padding: .9em; color: red; text-decoration: none;
+}
+table {width: 50%; height: 80%;
+    
+}
+th {
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid blue;
+  }
+.naslov {
+    font-size: 2em;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+  }
