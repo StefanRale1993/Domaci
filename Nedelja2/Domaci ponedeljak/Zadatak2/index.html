@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id="title">HTML, CSS vezba</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body class="Anaa">
+    <header class="Ana">
+        <h1 class="naziv">
+            <p class=naslov>Pivski raj</p>
+        </h1>
+        <nav class="navigacija">
+            <ul>
+                <li><a href="#">Ponuda</a></li>
+                <li><a href="#">Maloprodaja</a></li>
+                <li><a href="#">Veleprodaja</a></li>
+                <li><button type="button" class="btn btn-success" onclick="prikaziKontakt()">Kontakt</a></li>
+                <li><button type="button" class="btn btn-success" onclick="izmeniTitle()">Izmeni title</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <section>
+        <div>
+            <h3>Ponuda piva:</h3>
+        </div>
+        <table>
+            <tr>
+                <th>RB</th>
+                <th>Piva</th>
+                <th>Cena</th>
+                <th>Dostupnost</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Budwieser</td>
+                <td>80 rsd</td>
+                <td>dostupno</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Heineken</td>
+                <td>85 rsd</td>
+                <td>nema na stanju</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Tuborg</td>
+                <td>90 rsd</td>
+                <td>nema na stanju</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Kozel</td>
+                <td>99 rsd</td>
+                <td>dostupno</td>
+            </tr>
+        </table>
+    </section>
+    <hr>
+
+    <section>
+        <div>
+            <h4>Ulogujte se:</h4>
+            <label for="nameInput">Korisničko ime</label>
+            <input type="text" name="name" id="nameInput" value="stefan">
+
+        </div>
+        <div>
+            <label for="passwordInput">Šifra</label>
+            <input type="password" name="password" id="passwordInput">
+        </div>
+        <div>
+            <input type="submit" value="Login">
+        </div>
+        <form action="my page html">
+            <div>
+                <h4>Registrujte se:</h4>
+                <lable for="nameInput">Ime</lable>
+                <input type="text" name="name" id="nameInput">
+            </div>
+            <div>
+                <lable for="surnameInput">Prezime</lable>
+                <input type="text" name="surname" id=surnameInput>
+            </div>
+            <div>
+                <label for="emailInput">Email adresa</label>
+                <input type="text" name="email" id="emailInput">
+            </div>
+            <div>
+                <label for="passwordInput">Šifra</label>
+                <input type="password" name="password" id="passwordInput">
+            </div>
+            <div>
+                <label for="passwordInput">Potvrdite šifru</label>
+                <input type="password" placeholder="Potvrdite šifru" name="password" id="passwordInput">
+            </div>
+            <div>
+                <input type="submit" value="Register">
+
+            </div>
+        </form>
+    </section>
+    <hr>
+
+    <footer style="float: right;">
+        &copy;StefanRakonjac2019
+        <div>
+
+            <p id="futer">
+
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

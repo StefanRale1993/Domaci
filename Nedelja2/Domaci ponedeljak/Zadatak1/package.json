@@ -1,0 +1,12 @@
+{
+  "name": "zadatak1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "zadatak1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node zadatak1.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
